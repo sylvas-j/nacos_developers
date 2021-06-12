@@ -87,7 +87,7 @@ function test_input($data) {
 <p><a href="index-2.php">View Your Info</a></p>
 
 
-<h2>GROUP 8 FORM</h2>
+<h2>NACOS DEVELOPERS FORM</h2>
 <p><span class="error">* required field</span></p>
 <form action="index.php" method="post" enctype="multipart/form-data">
   <div class="form-group">
