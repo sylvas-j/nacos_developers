@@ -99,8 +99,18 @@ function test_input($data) {
     <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required="">
   </div>
     <div class="form-group">
-    <label for="level">Level</label>
-    <input type="text" class="form-control" id="level" name="level" placeholder="level">
+    <label for="level">Level</label><!-- 
+    <input type="text" class="form-control" id="level" name="level" placeholder="level"> -->
+
+    <select class="custom-select" id="action" name="level" required>
+      <option value="None">Select Level</option>
+      <option value="100L">100</option>
+      <option value="200L">200</option>
+      <option value="300L">300</option>
+      <option value="400L">400</option>
+      <option value="Other">Other</option>
+      
+    </select>
   </div>
   <div class="form-group">
     <label for="skills">Skill(s)</label>
