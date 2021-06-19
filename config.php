@@ -3,14 +3,19 @@
   //this insert data in my data base
 // $dsn1='localhost';
 // $user= 'root';
-// $password='';  
+// $password='tgzWJ555YA';  
 // $dbname  = 'mr_igiri_project';
 
-$dsn1='sql4.freemysqlhosting.net';
-$user= 'sql4418491';
-$password='3CC3R9gJ1E';  
-$dbname  = 'sql4418491';
+// $dsn1='sql4.freemysqlhosting.net';
+// $user= 'sql4418491';
+// $password='3CC3R9gJ1E';  
+// $dbname  = 'sql4418491';
 
+
+$dsn1='remotemysql.com';
+$user= 'PyKbFLWWLF';
+$password='tgzWJ555YA';  
+$dbname  = 'PyKbFLWWLF';
 
 $conn = new mysqli($dsn1, $user, $password, $dbname);
 
